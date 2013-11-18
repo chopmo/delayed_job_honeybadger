@@ -15,7 +15,6 @@ module Delayed
               :queue => job.queue
             }
           )
-          super if defined?(super)
         end
       end
 
